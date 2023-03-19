@@ -14,9 +14,17 @@ const projects: Project[] = [
   {
     id: 2,
     title: "ClubRare",
-    desc: "Trade real-world collectibles and earn huge rewards on the community-owned phygital(physical digital) marketplace",
+    desc: "Trade real-world collectibles and earn huge rewards on the community-owned phygital marketplace",
     img: "/static/projects/clubrarexyz.png",
     link: "https://www.clubrare.xyz/",
+    tags: ["NextJS", "TailwindCSS", "Express", "Node"],
+  },
+  {
+    id: 3,
+    title: "Priceline",
+    desc: "Save big on your next hotel",
+    img: "/static/projects/priceline.png",
+    link: "https://www.priceline.com/",
     tags: ["NextJS", "TailwindCSS", "Express", "Node"],
   },
 ];
