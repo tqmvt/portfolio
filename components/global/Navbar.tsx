@@ -9,9 +9,9 @@ function Navbar({ currentPage }) {
         <Link href="/">
           <span className="font-black text-xl flex items-center">
             <img
-              className="mr-2 transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
+              className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
               src="/static/logos/logo.png"
-              width="60"
+              width="100"
             />
             {"Taylor's".split("").map((letter, index) => {
               return (
