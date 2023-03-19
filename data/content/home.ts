@@ -85,19 +85,19 @@ export const testimonials: Testimonial[] = [
   {
     quote:
       "The communication throughout the project was spot on and the feature development was carried out well.",
-    name: "",
-    job: "Founder of",
+    name: "Paul Chung",
+    job: "Founder of ClubRare",
   },
   {
     quote:
       "The code was clean, easy to understand, and exactly what I was looking for.",
-    name: "",
-    job: "CTO of",
+    name: "Steve Mersch",
+    job: "President of PointSource",
   },
   {
     quote:
       "My vision was executed perfectly. The quality and speed of the work was excellent.",
-    name: "",
-    job: "CTO of",
+    name: "Martin Brodbeck",
+    job: "CTO of Priceline",
   },
 ];
