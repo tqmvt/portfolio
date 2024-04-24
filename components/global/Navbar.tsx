@@ -13,7 +13,7 @@ function Navbar({ currentPage }) {
               src="/static/logos/logo.png"
               width="100"
             />
-            {"Taylor's".split("").map((letter, index) => {
+            {"tqmvt".split("").map((letter, index) => {
               return (
                 <span
                   key={index}
