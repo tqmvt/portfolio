@@ -8,7 +8,7 @@ const projects: Project[] = [
     desc: "🔷 My sweet sweeet portfolio built with React, NextJS, and TailwindCSS.",
     img: "/static/projects/portfolio.png",
     link: "https://taylor.vercel.app/",
-    github: "https://github.com/gofixgo/portfolio",
+    github: "https://github.com/tqmvt/portfolio",
     tags: ["React", "NextJS", "TailwindCSS", "Vercel"],
   },
   {

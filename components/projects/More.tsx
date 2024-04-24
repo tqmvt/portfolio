@@ -6,7 +6,7 @@ function More() {
       Hey, hey, hey... I've got even more on{" "}
       <a
         className="text-fun-pink underline"
-        href="https://github.com/gofixgo"
+        href="https://github.com/tqmvt"
         target="_blank"
       >
         my GitHub
