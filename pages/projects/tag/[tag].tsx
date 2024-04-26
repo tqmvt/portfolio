@@ -16,7 +16,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   projects.forEach((project) =>
     project.tags.forEach((tag) => {
       allTags.push(tag);
-    })
+    }),
   );
   const uniqueAllTags = [...new Set(allTags)];
   const allTagsPaths = uniqueAllTags.map((path) => ({
@@ -35,14 +35,14 @@ export const getStaticProps: GetStaticProps = async ({
 }) => {
   const tag = params.tag;
   const filteredProjects = projects.filter((project) =>
-    [...kebabArray(project.tags)].includes(tag)
+    [...kebabArray(project.tags)].includes(tag),
   );
   return {
     props: JSON.parse(
       JSON.stringify({
         filteredProjects,
         tag: tag,
-      })
+      }),
     ),
   };
 };

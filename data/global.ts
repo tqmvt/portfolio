@@ -31,10 +31,10 @@ export const routes: Route[] = [
     title: "Projects",
     path: "/projects",
   },
-  {
-    title: "Certificates",
-    path: "/certificates",
-  },
+  // {
+  //   title: "Certificates",
+  //   path: "/certificates",
+  // },
 ];
 
 export const footer: Footer = {
@@ -52,11 +52,11 @@ export const footer: Footer = {
           link: "/projects",
           leavesWebsite: false,
         },
-        {
-          name: "Certificates",
-          link: "/certificates",
-          leavesWebsite: false,
-        },
+        // {
+        //   name: "Certificates",
+        //   link: "/certificates",
+        //   leavesWebsite: false,
+        // },
       ],
     },
     {
@@ -74,18 +74,18 @@ export const footer: Footer = {
         //   icon: "/static/icons/linkedin-f.svg",
         //   leavesWebsite: true,
         // },
-        // {
-        //   name: "Twitter",
-        //   link: "",
-        //   icon: "/static/icons/twitter.svg",
-        //   leavesWebsite: true,
-        // },
         {
-          name: "Stackoverflow",
-          link: "https://stackoverflow.com/",
-          icon: "/static/icons/stack-overflow.svg",
+          name: "Twitter",
+          link: "https://twitter.com/_tqmvt",
+          icon: "/static/icons/twitter.svg",
           leavesWebsite: true,
         },
+        // {
+        //   name: "Stackoverflow",
+        //   link: "",
+        //   icon: "/static/icons/stack-overflow.svg",
+        //   leavesWebsite: true,
+        // },
         {
           name: "Email",
           link: "mailto:taylorleefix@gmail.com",
