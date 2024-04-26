@@ -16,20 +16,21 @@ function Footer() {
               <div>
                 {item.links.map((item, index) => {
                   return (
-                    <div key={index} className="my-4">
+                    <div key={index} className="my-4 flex">
                       {item.leavesWebsite ? (
-                        <a
-                          href={item.link}
-                          target="_blank"
-                          className="items-center flex"
-                        >
-                          {item.icon && (
-                            <span className="pr-2 -mb-1">
-                              <Image src={item.icon} width={20} height={20} alt={item.name} />
-                            </span>
-                          )}
-                          {item.name}
-                        </a>
+                        <Link href={item.link} target="_blank">
+                          <div className="flex justify-start items-center gap-1">
+                            {item.icon && (
+                              <Image
+                                src={item.icon}
+                                width={20}
+                                height={20}
+                                alt={item.name}
+                              />
+                            )}
+                            {item.name}
+                          </div>
+                        </Link>
                       ) : (
                         <Link href={item.link}>{item.name}</Link>
                       )}

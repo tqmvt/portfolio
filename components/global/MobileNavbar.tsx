@@ -11,7 +11,7 @@ export default function MobileNavbar() {
     {
       enterDelay: 20,
       exitDelay: 300,
-    }
+    },
   );
 
   function toggleMenu() {
