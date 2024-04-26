@@ -77,9 +77,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-8 text-center sm:text-right sm:-mt-12">
+      <div className="mt-8 text-center sm:text-right sm:-mt-8 pointer-events-none">
         <a
-          className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
+          className="w-auto inline-flex items-center sm:w-auto pointer-events-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
           href="https://github.com/tqmvt/portfolio"
           target="_blank"
           rel="nooreferrer"
