@@ -1,5 +1,3 @@
-import React from "react";
-
 function Heading() {
   return (
     <div className="py-16 sm:py-20 w-full text-center relative">

@@ -1,5 +1,3 @@
-import React from "react";
-
 type HeadingProps = {
   tag?: string;
 };
@@ -32,9 +30,9 @@ function Heading({ tag }: HeadingProps) {
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've built cool apps and websites using anything from JavaScript to
-          JavaScript (and even JavaScript!). Here are some of my favorite
-          projects over the course of my journey.
+          I&apos;ve built cool apps and websites using anything from Web2 to
+          Web3 (and even AI). Here are some of my favorite projects over the
+          course of my journey.
         </p>
       )}
     </div>

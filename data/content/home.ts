@@ -28,7 +28,7 @@ export const skills: Skill[] = [
   },
   {
     title: "TailwindCSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "/static/tech/tailwindcss-original.svg",
   },
   {
     title: "React",
@@ -53,7 +53,7 @@ export const skills: Skill[] = [
   },
   {
     title: "Nest",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    icon: "/static/tech/nestjs-original.svg",
   },
   {
     title: "Go",
@@ -73,7 +73,7 @@ export const skills: Skill[] = [
   },
   {
     title: "AWS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+    icon: "/static/tech/amazonwebservices-plain-wordmark.svg",
   },
   {
     title: "Figma",
@@ -85,19 +85,19 @@ export const testimonials: Testimonial[] = [
   {
     quote:
       "The communication throughout the project was spot on and the feature development was carried out well.",
-    name: "Paul Chung",
-    job: "Founder of ClubRare",
+    name: "Nathan Schwermann",
+    job: "CEO of Ebisu's Bay",
   },
   {
     quote:
       "The code was clean, easy to understand, and exactly what I was looking for.",
-    name: "Steve Mersch",
-    job: "President of PointSource",
+    name: "Rob Cunning",
+    job: "Lead Frontend Engineer",
   },
   {
     quote:
       "My vision was executed perfectly. The quality and speed of the work was excellent.",
-    name: "Martin Brodbeck",
-    job: "CTO of Priceline",
+    name: "Mustafa Mahmutovic",
+    job: "CTO of Linum Labs",
   },
 ];
