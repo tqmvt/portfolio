@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import SectionTitle from "../global/SectionTitle";
 import projects from "@/data/content/projects";
 
