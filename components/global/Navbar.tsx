@@ -8,9 +8,10 @@ function Navbar({ currentPage }) {
         <Link href="/">
           <span className="font-black text-xl flex items-center">
             <img
-              className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500"
-              src="/static/logos/logo.png"
-              width="100"
+              className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500 mr-3"
+              src="/static/logos/code-right.svg"
+              width="60"
+              height="54"
             />
             {"tqmvt".split("").map((letter, index) => {
               return (

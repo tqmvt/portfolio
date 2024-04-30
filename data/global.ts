@@ -96,8 +96,13 @@ export const footer: Footer = {
     },
   ],
   support: {
-    buymeacoffee: "",
+    buymeacoffee: "support",
     paypal: "",
     message: "I appreciate your support very much! 💙",
   },
+};
+
+export const footerUrls = {
+  buymeacoffee: "https://kofime.xyz/",
+  paypal: "https://paypal.me/",
 };

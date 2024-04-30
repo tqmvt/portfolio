@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footer } from "@/data/global";
+import { footer, footerUrls } from "@/data/global";
 import Image from "next/image";
 
 function Footer() {
@@ -48,7 +48,7 @@ function Footer() {
             {footer.support.buymeacoffee !== "" && (
               <div>
                 <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
+                  href={`${footerUrls.buymeacoffee}${footer.support.buymeacoffee}`}
                   target="_blank"
                 >
                   <img
@@ -61,7 +61,7 @@ function Footer() {
             {footer.support.paypal !== "" && (
               <div>
                 <a
-                  href={`https://paypal.me/${footer.support.paypal}`}
+                  href={`${footerUrls.paypal}${footer.support.paypal}`}
                   target="_blank"
                 >
                   <img

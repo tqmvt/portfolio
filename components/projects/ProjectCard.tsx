@@ -5,7 +5,7 @@ import Link from "next/link";
 function ProjectCard({ project }) {
   return (
     <div
-      className="max-w-sm mx-auto flex flex-col projects-center md:projects-start md:justify-center"
+      className="max-w-sm mx-auto flex flex-col items-center md:items-start md:justify-center"
       key={project.id}
     >
       <a
@@ -16,11 +16,11 @@ function ProjectCard({ project }) {
         <img className="w-full rounded-md" src={project.img} />
       </a>
       <div className="w-full mt-5">
-        <div className="flex projects-center justify-between">
+        <div className="flex items-center justify-between">
           <a href={project.link || project.github} target="_blank">
             <h3 className="text-lg font-bold">{project.title}</h3>
           </a>
-          <div className="space-x-2">
+          <div className="flex space-x-2">
             {project.link && (
               <a href={project.link} target="_blank" rel="noreferrer">
                 <Image

@@ -40,7 +40,12 @@ export default function MobileNavbar() {
       >
         <li className="list-none font-bold text-lg">
           <Link href="/">
-            <img className="mr-3" src="/static/logos/logo.png" width="100" />
+            <img
+              className="mr-3"
+              src="/static/logos/code-right.svg"
+              width="60"
+              height="54"
+            />
           </Link>
         </li>
         <button
@@ -66,7 +71,7 @@ export default function MobileNavbar() {
                 style={{ transitionDelay: `${150 + index * 25}ms` }}
               >
                 <Link href={item.path}>
-                  <a className="flex w-auto pb-4">{item.title}</a>
+                  <span className="flex w-auto pb-4">{item.title}</span>
                 </Link>
               </li>
             );
