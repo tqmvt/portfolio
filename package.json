@@ -5,7 +5,8 @@
     "build": "next build",
     "start": "next start",
     "serve": "next serve",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,css,scss,json,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
+    "prepare": "husky"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.9.0",
@@ -34,6 +35,8 @@
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
     "autoprefixer": "^10.4.19",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "rehype": "13.0.1",
@@ -42,5 +45,14 @@
     "rehype-prism-plus": "^2.0.0",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier -w"
+    ],
+    "**/*.{json,css,scss,md,webmanifest}": [
+      "prettier -w"
+    ]
   }
 }
