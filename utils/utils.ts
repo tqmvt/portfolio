@@ -4,7 +4,7 @@ export const kebabCase = (str: string) =>
     .replace(/[\s_]+/g, "-")
     .toLowerCase();
 
-export const kebabArray = (arr: any[]) => arr.map((item) => kebabCase(item));
+export const kebabArray = (arr: string[]) => arr.map((item) => kebabCase(item));
 
 export const randomNumberText = (finalNum: string, setNumber) => {
   let count = 0;

@@ -3,7 +3,7 @@ import Head from "next/head";
 import MobileNavbar from "../global/MobileNavbar";
 import Navbar from "../global/Navbar";
 
-function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
+function Page({ currentPage, meta: { desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
       ? "Taylor Lee - Web Developer, Blockchain Engineer."
