@@ -53,7 +53,7 @@ function Footer() {
                 >
                   <img
                     src="/static/misc/buy-me-a-coffee.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+                    className="h-12 md:mr-2 hover:opacity-80 opacity-100 transition-opacity"
                   />
                 </a>
               </div>
