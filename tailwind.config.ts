@@ -1,9 +1,14 @@
-const colors = require("tailwindcss/colors");
+import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
-module.exports = {
+export default {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: ["selector", '[data-mode="dark"]'],
   theme: {
     fontFamily: {
       sans: ["Be Vietnam Pro", "Inter", "system-ui", "sans"],
@@ -57,5 +62,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms")],
-};
+  plugins: [],
+} satisfies Config;

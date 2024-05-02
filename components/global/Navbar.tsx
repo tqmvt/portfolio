@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import { routes } from "@/data/global";
 
 function Navbar({ currentPage }) {

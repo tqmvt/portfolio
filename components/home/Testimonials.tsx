@@ -1,5 +1,6 @@
-import SectionTitle from "../global/SectionTitle";
 import { testimonials } from "@/data/content/home";
+
+import SectionTitle from "../global/SectionTitle";
 
 function Testimonials() {
   return (

@@ -1,5 +1,6 @@
-import Footer from "../global/Footer";
 import Head from "next/head";
+
+import Footer from "../global/Footer";
 import MobileNavbar from "../global/MobileNavbar";
 import Navbar from "../global/Navbar";
 

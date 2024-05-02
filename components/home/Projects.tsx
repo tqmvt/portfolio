@@ -1,7 +1,8 @@
 import Link from "next/link";
-import SectionTitle from "../global/SectionTitle";
+
 import projects from "@/data/content/projects";
 
+import SectionTitle from "../global/SectionTitle";
 import ProjectCard from "../projects/ProjectCard";
 
 function Projects() {

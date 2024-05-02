@@ -1,6 +1,7 @@
-import Link from "next/link";
-import { footer, footerUrls } from "@/data/global";
 import Image from "next/image";
+import Link from "next/link";
+
+import { footer, footerUrls } from "@/data/global";
 
 function Footer() {
   return (

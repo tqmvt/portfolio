@@ -1,15 +1,14 @@
-import Page from "components/utility/Page";
-
-import { GetStaticProps, GetStaticPaths } from "next";
-import { allKebabTags, allTags } from "@/data/content/projects";
-
-import projects from "@/data/content/projects";
-
-import { kebabCase, kebabArray } from "@/utils/utils";
-import Projects from "components/projects/Projects";
 import Heading from "components/projects/Heading";
+import Projects from "components/projects/Projects";
+import Page from "components/utility/Page";
+import { GetStaticPaths, GetStaticProps } from "next";
 // import More from "components/projects/More";
 import Link from "next/link";
+
+import { allKebabTags, allTags } from "@/data/content/projects";
+import projects from "@/data/content/projects";
+
+import { kebabArray, kebabCase } from "@/utils/utils";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const allTags = [];
