@@ -1,5 +1,7 @@
-import projects from "@/data/content/projects";
 import { Project } from "types";
+
+import projects from "@/data/content/projects";
+
 import ProjectCard from "./ProjectCard";
 
 type ProjectProps = {

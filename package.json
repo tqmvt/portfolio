@@ -6,7 +6,6 @@
     "start": "next start",
     "serve": "next serve",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,css,scss,json,md}\"",
-    "prepare": "husky",
     "lint": "eslint . --fix"
   },
   "dependencies": {

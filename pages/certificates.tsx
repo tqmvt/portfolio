@@ -1,7 +1,8 @@
-import Heading from "@/components/certificates/Heading";
 // import More from "@/components/certificates/More";
 import Page from "components/utility/Page";
+
 import Projects from "@/components/certificates/Certificates";
+import Heading from "@/components/certificates/Heading";
 
 function certificates() {
   return (

@@ -1,6 +1,7 @@
 import Image from "next/image";
-import { kebabCase } from "@/utils/utils";
 import Link from "next/link";
+
+import { kebabCase } from "@/utils/utils";
 
 function ProjectCard({ project }) {
   return (
@@ -45,7 +46,7 @@ function ProjectCard({ project }) {
         </div>
         <p className="text-fun-gray text-left text-sm">{project.desc}</p>
         <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
-          {project.tags.map((tag, index) => {
+          {project.tags.map((tag) => {
             return (
               <li key={tag}>
                 <Link href={`/projects/tag/${kebabCase(tag)}`}>
