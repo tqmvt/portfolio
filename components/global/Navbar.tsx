@@ -2,7 +2,10 @@ import Link from "next/link";
 
 import { routes } from "@/data/global";
 
-function Navbar({ currentPage }) {
+interface NavbarProps {
+  currentPage: string;
+}
+function Navbar({ currentPage }: NavbarProps) {
   return (
     <nav className="flex items-center justify-between">
       <li className="list-none font-bold text-lg cursor-pointer">

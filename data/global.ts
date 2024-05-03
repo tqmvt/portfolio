@@ -22,6 +22,11 @@ type Footer = {
   };
 };
 
+export const profile = {
+  name: "Taylor Lee",
+  title: "Senior Software Engineer",
+};
+
 export const routes: Route[] = [
   {
     title: "Home",

@@ -4,9 +4,9 @@ import projects from "@/data/content/projects";
 
 import ProjectCard from "./ProjectCard";
 
-type ProjectProps = {
+interface ProjectProps {
   overwriteProjects?: Project[];
-};
+}
 
 function Projects({ overwriteProjects }: ProjectProps) {
   const projectsList = overwriteProjects ? overwriteProjects : projects;

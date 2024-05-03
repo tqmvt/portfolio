@@ -1,7 +1,6 @@
-type SectionTitleProps = {
+interface SectionTitleProps {
   title: string;
-};
-
+}
 function SectionTitle({ title }: SectionTitleProps) {
   return (
     <div className="overflow-x-hidden w-full pt-5">

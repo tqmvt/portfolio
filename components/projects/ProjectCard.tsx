@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Project } from "types";
 
 import { kebabCase } from "@/utils/utils";
 
-function ProjectCard({ project }) {
+interface ProjectCardProps {
+  project: Project;
+}
+function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div
       className="max-w-sm mx-auto flex flex-col items-center md:items-start md:justify-center"

@@ -1,7 +1,6 @@
-type HeadingProps = {
+interface HeadingProps {
   tag?: string;
-};
-
+}
 function Heading({ tag }: HeadingProps) {
   return (
     <div

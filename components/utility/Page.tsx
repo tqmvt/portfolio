@@ -1,5 +1,7 @@
 import Head from "next/head";
 
+import { profile } from "@/data/global";
+
 import Footer from "../global/Footer";
 import MobileNavbar from "../global/MobileNavbar";
 import Navbar from "../global/Navbar";
@@ -7,8 +9,8 @@ import Navbar from "../global/Navbar";
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Taylor Lee - Web Developer, Blockchain Engineer."
-      : `${currentPage} | Taylor Lee`
+      ? `${profile.name} - ${profile.title}`
+      : `${currentPage} | ${profile.name}`
   }`;
 
   return (
