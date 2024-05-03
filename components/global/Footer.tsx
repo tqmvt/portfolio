@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import { footer, footerUrls } from "@/data/global";
 
+import { Online } from "./Online";
+
 function Footer() {
   return (
     <footer className="flex flex-col w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
@@ -94,6 +96,7 @@ function Footer() {
           <span className="ml-2">View Source Code </span>
         </a>
       </div>
+      <Online active />
     </footer>
   );
 }
