@@ -3,7 +3,7 @@ import Link from "next/link";
 
 import { footer, footerUrls } from "@/data/global";
 
-import { Online } from "./Online";
+// import { Online } from "./Online";
 
 function Footer() {
   return (
@@ -18,7 +18,7 @@ function Footer() {
               <div>
                 {item.links.map((item, index) => {
                   return (
-                    <div key={index} className="my-4 flex">
+                    <div key={index} className="my-4 flex hover:text-fun-pink">
                       {item.leavesWebsite ? (
                         <Link href={item.link} target="_blank">
                           <div className="flex justify-start items-center gap-1">
@@ -96,7 +96,7 @@ function Footer() {
           <span className="ml-2">View Source Code </span>
         </a>
       </div>
-      <Online active />
+      {/* <Online active /> */}
     </footer>
   );
 }
