@@ -9,8 +9,8 @@ function Hero() {
       >
         <p className="text-xl mb-5">Hey, I'm Taylor.</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
-          I enjoy <span className="heroShiny1 text-fun-pink">learning</span>{" "}
-          and&nbsp;
+          I enjoy <span className="heroShiny1 text-fun-pink">learning</span>
+          &nbsp; and&nbsp;
           <span className="heroShiny2 text-fun-pink">building</span> for the
           web.
           <img

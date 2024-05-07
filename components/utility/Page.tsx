@@ -2,9 +2,7 @@ import Head from "next/head";
 
 import { profile } from "@/data/global";
 
-import Footer from "../global/Footer";
-import MobileNavbar from "../global/MobileNavbar";
-import Navbar from "../global/Navbar";
+import { Footer, MobileNavbar, Navbar } from "../global";
 
 function Page({ currentPage, meta: { desc }, children }: PageProps) {
   const pageTitle = `${
