@@ -3,8 +3,6 @@ import Link from "next/link";
 
 import { footer, footerUrls } from "@/data/global";
 
-// import { Online } from "./Online";
-
 function Footer() {
   return (
     <footer className="flex flex-col w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
@@ -57,8 +55,8 @@ function Footer() {
                   <Image
                     src="/static/misc/buy-me-a-coffee.svg"
                     className="h-12 md:mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                    width={299}
-                    height={78}
+                    width={184}
+                    height={48}
                     alt="buy-me-a-coffee"
                   />
                 </a>
@@ -70,9 +68,12 @@ function Footer() {
                   href={`${footerUrls.paypal}${footer.support.paypal}`}
                   target="_blank"
                 >
-                  <img
+                  <Image
                     src="/static/misc/paypal.svg"
                     className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
+                    width={184}
+                    height={48}
+                    alt="paypal"
                   />
                 </a>
               </div>
@@ -99,7 +100,6 @@ function Footer() {
           <span className="ml-2">View Source Code </span>
         </a>
       </div>
-      {/* <Online active /> */}
     </footer>
   );
 }
