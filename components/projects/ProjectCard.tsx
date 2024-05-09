@@ -18,7 +18,11 @@ function ProjectCard({ project }: ProjectCardProps) {
         target="_blank"
         className={`w-full relative rounded-xl border-fun-gray border p-2 transition hover:-translate-y-2 hover:opacity-75 hover:border-fun-pink will-change-projectCard`}
       >
-        <img className="w-full rounded-md" src={project.img} />
+        <img
+          className="w-full rounded-md"
+          src={project.img}
+          alt={project.title}
+        />
       </a>
       <div className="w-full mt-5">
         <div className="flex items-center justify-between">

@@ -1,7 +1,15 @@
+import Image from "next/image";
+
 function CTA() {
   return (
     <div className="pt-36 relative w-full">
-      <img className="w-30 m-auto mb-2" src="/static/doodles/lineBreak.svg" />
+      <Image
+        className="m-auto mb-2"
+        src="/static/doodles/lineBreak.svg"
+        width={238}
+        height={17}
+        alt="line-break"
+      />
       <div className="pt-14 pb-40">
         <h2 className="text-4xl md:text-5xl font-bold mb-10">
           Interested in Working Together?

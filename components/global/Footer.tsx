@@ -54,9 +54,12 @@ function Footer() {
                   href={`${footerUrls.buymeacoffee}${footer.support.buymeacoffee}`}
                   target="_blank"
                 >
-                  <img
+                  <Image
                     src="/static/misc/buy-me-a-coffee.svg"
                     className="h-12 md:mr-2 hover:opacity-80 opacity-100 transition-opacity"
+                    width={299}
+                    height={78}
+                    alt="buy-me-a-coffee"
                   />
                 </a>
               </div>
