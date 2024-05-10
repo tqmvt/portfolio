@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Project } from "types";
 
-import { placeholderImagePath } from "@/data/global";
-
+// import { placeholderImagePath } from "@/data/global";
 import { kebabCase } from "@/utils/utils";
 
 interface ProjectCardProps {
@@ -24,12 +23,12 @@ function ProjectCard({ project }: ProjectCardProps) {
           className="rounded-md"
           src={project.img}
           alt={project.title}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
-          placeholder="blur"
-          blurDataURL={placeholderImagePath}
+          // width={0}
+          // height={0}
+          // sizes="100vw"
+          // style={{ width: "100%", height: "auto" }}
+          // placeholder="blur"
+          // blurDataURL={placeholderImagePath}
         />
       </a>
       <div className="w-full mt-5">
