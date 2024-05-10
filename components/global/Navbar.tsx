@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { routes } from "@/data/global";
@@ -11,11 +12,12 @@ function Navbar({ currentPage }: NavbarProps) {
       <li className="list-none font-bold text-lg cursor-pointer">
         <Link href="/">
           <span className="font-black text-xl flex items-center">
-            <img
+            <Image
               className="transform hover:rotate-360 hover:scale-75 transition-transform duration-500 mr-3"
               src="/static/logos/code-right.svg"
               width="60"
               height="54"
+              alt="code-right"
             />
             {"tqmvt".split("").map((letter, index) => {
               return (

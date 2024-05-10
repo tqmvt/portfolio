@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import useDelayedRender from "use-delayed-render";
@@ -40,11 +41,12 @@ export default function MobileNavbar() {
       >
         <li className="list-none font-bold text-lg">
           <Link href="/">
-            <img
-              className="mr-3"
+            <Image
               src="/static/logos/code-right.svg"
+              className="mr-3"
               width="60"
               height="54"
+              alt="code-right"
             />
           </Link>
         </li>

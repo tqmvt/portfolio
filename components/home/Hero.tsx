@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Link as ScrollLink } from "react-scroll";
 
 function Hero() {
@@ -13,9 +14,12 @@ function Hero() {
           &nbsp; and&nbsp;
           <span className="heroShiny2 text-fun-pink">building</span> for the
           web.
-          <img
-            className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
+          <Image
             src="/static/doodles/hero/pop1.svg"
+            className="sqD squiggle-hero-pop1 hidden sm:block sm:top-[-130px] sm:left-[15%] lg:top-[-130px] lg:left-[120px]"
+            width={88}
+            height={127}
+            alt="pop1"
           />
         </h1>
         <ScrollLink
