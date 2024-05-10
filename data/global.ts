@@ -111,3 +111,5 @@ export const footerUrls = {
   buymeacoffee: "https://kofime.xyz/",
   paypal: "https://paypal.me/",
 };
+
+export const placeholderImagePath = "/static/placeholders/placeholder.webp";
