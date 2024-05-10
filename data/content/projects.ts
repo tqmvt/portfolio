@@ -1,5 +1,5 @@
-import bookretreats from "public/static/projects/bookretreats.png";
 // https://nextjs.org/docs/app/building-your-application/optimizing/images#local-images
+import bookretreats from "public/static/projects/bookretreats.png";
 import ebisus from "public/static/projects/ebisus.png";
 import sharewell from "public/static/projects/sharewell.png";
 import sturdy from "public/static/projects/sturdy.png";

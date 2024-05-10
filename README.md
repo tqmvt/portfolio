@@ -7,6 +7,8 @@
    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝    ╚══════╝╚══════╝╚══════╝
 ```
 
+![lighthouse](gtmetrix-result.png)
+
 ## Features
 
 This repository is 🔋 battery packed with:
