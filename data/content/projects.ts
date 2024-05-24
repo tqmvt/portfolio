@@ -1,6 +1,8 @@
 // https://nextjs.org/docs/app/building-your-application/optimizing/images#local-images
 import bookretreats from "public/static/projects/bookretreats.png";
 import ebisus from "public/static/projects/ebisus.png";
+import omnidashboard from "public/static/projects/omniflix/dapp.png";
+import omnimarket from "public/static/projects/omniflix/marketplace.png";
 import sharewell from "public/static/projects/sharewell.png";
 import sturdy from "public/static/projects/sturdy.png";
 import { Project } from "types";
@@ -17,6 +19,16 @@ const projects: Project[] = [
     link: "https://app.ebisusbay.com/",
     github: "",
     tags: ["React", "NextJS", "TypeScript", "Ethers.js", "TailwindCSS", "AWS"],
+  },
+  {
+    id: 5,
+    title: "OmniFlix Network - Marketplace",
+    desc: "Do more with your NFTs on OmniFlix Hub!",
+    img: omnimarket,
+    imgPath: "/static/projects/omniflix/marketplace.png",
+    link: "https://omniflix.market/home",
+    github: "",
+    tags: ["React", "NextJS", "TypeScript", "Cosmjs", "Cosmos SDK", "Go"],
   },
   {
     id: 2,
@@ -52,6 +64,15 @@ const projects: Project[] = [
     imgPath: "/static/projects/sharewell.png",
     link: "https://sharewellnow.com/",
     tags: ["NextJS", "React Query", "TailwindCSS", "Express", "Node", "Figma"],
+  },
+  {
+    id: 6,
+    title: "OmniFlix Network - Dashboard",
+    desc: "Create, manage, distribute & publish media assets like NFTs containing videos, audio files, graphics/gifs & text for monetization with the help of your community!",
+    img: omnidashboard,
+    imgPath: "/static/projects/omniflix/dapp.png",
+    link: "https://app.omniflix.studio/dashboard",
+    tags: ["NextJS", "Express", "Cosmjs", "Cosmos SDK", "Go"],
   },
 ];
 
