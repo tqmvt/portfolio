@@ -60,6 +60,26 @@ export const skills: Skill[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
   },
   {
+    title: "Solidity",
+    icon: "/static/tech/solidity-plain-white.svg",
+  },
+  {
+    title: "Ethereum",
+    icon: "/static/tech/ethereum-eth.svg",
+  },
+  {
+    title: "Solana",
+    icon: "/static/tech/solana-sol-logo.png",
+  },
+  {
+    title: "Cosmos",
+    icon: "/static/tech/cosmos.png",
+  },
+  {
+    title: "CosmWasm",
+    icon: "/static/tech/cosmwasm.png",
+  },
+  {
     title: "Docker",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   },
@@ -92,7 +112,7 @@ export const testimonials: Testimonial[] = [
     quote:
       "The code was clean, easy to understand, and exactly what I was looking for.",
     name: "Rob Cunning",
-    job: "Lead Frontend Engineer",
+    job: "Engineering Lead",
   },
   {
     quote:

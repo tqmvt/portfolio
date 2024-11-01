@@ -101,14 +101,14 @@ export const footer: Footer = {
     },
   ],
   support: {
-    buymeacoffee: "support",
+    buymeacoffee: "0x0C45bad04b24c208F93C5373CA5667e0376D985B",
     paypal: "",
     message: "I appreciate your support very much! 💙",
   },
 };
 
 export const footerUrls = {
-  buymeacoffee: "https://kofime.xyz/",
+  buymeacoffee: "https://etherscan.io/address/",
   paypal: "https://paypal.me/",
 };
 
